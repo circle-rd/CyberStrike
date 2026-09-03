@@ -133,6 +133,12 @@ export namespace Config {
         command: ["npx", "-y", "satellite-mcp"],
         enabled: false,
       },
+      // --- Tier 4: Windows EDR Evasion (Python) ---
+      sysplant: {
+        type: "local",
+        command: ["uvx", "--from", "sysplant[mcp]", "sysplant-mcp"],
+        enabled: false,
+      },
     }
 
     for (const [key, value] of Object.entries(auth)) {

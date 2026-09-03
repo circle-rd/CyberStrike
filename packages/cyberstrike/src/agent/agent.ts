@@ -433,6 +433,7 @@ export namespace Agent {
           "kerberos-attacks",
           "ebpf-attacks",
           "windows-postexploit",
+          "sysplant",
           "linux-postexploit",
           "macos-postexploit",
           "aws-postexploit",
